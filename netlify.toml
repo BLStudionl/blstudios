@@ -1,8 +1,7 @@
-# BL Studios — kant-en-klare versie.
-# De site is al gebouwd; Netlify hoeft alleen de map "site" te serveren.
+# BL Studios — platte versie, alle bestanden in de hoofdmap.
+# De site is al gebouwd; Netlify serveert alleen.
 [build]
-  command = ""
-  publish = "site"
+  publish = "."
 
 [[headers]]
   for = "/*"
@@ -29,7 +28,7 @@
     """
 
 [[headers]]
-  for = "/assets/fonts/*"
+  for = "/*.woff2"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
