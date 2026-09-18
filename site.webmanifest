@@ -1,0 +1,14 @@
+{
+  "name": "BL Studios",
+  "short_name": "BL Studios",
+  "description": "BL Studios is een creatieve contentstudio in Den Haag. Podcastproductie, video, campagnes en contentstrategie vanuit onze eigen podcaststudio.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08080A",
+  "theme_color": "#08080A",
+  "icons": [
+    { "src": "/assets/img/logo-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/img/logo-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/assets/img/logo-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
